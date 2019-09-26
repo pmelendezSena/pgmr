@@ -1,0 +1,23 @@
+[
+    {
+    "name": "Aragorn",
+    "race": "Human"
+    },
+    {
+    "name": "Gimli",
+    "race": "Dwarf"
+    },
+    {
+     "name": "GOLLUM",
+     "race": "SMEAGOL"
+     },
+     {
+      "name": "LEGOLAS",
+      "race": "Human"
+      },
+     {
+      "name": "GANDALF",
+      "race": "Human"
+     }
+
+]
