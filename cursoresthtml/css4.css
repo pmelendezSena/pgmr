@@ -1,22 +1,26 @@
-#root{
-max-width:1200px;
-margin:0auto;
-}
-.container{
-display:flex;
-flex-wrap:wrap;
-}
-.card{
-margin:1rem;
-border:1pxsolidgray;
-}
-@media screenand(min-width:600px) {
-.card{
-flex:11calc(50%-2rem);
-}
-}
-@media screenand(min-width:900px) {
-.card{
-flex:11calc(33%-2rem);
-}
-}
+#root {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    margin: 1rem;
+    border: 1px solid gray;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .card {
+      flex: 1 1 calc(50% - 2rem);
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    .card {
+      flex: 1 1 calc(33% - 2rem);
+    }
+  }
